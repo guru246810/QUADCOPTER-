@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="07/04/21||09:02:28" using="Simscape Multibody Link Version 7.0" from="SolidWorks 28.5.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="quadcopter430assemblyrecreation" uid="quadcopter430assemblyrecreation" version="137">
+<AssemblyFile name="quadcopter430assemblyrecreation.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="quadcopterf430-1" uid="quadcopterf430-1" grounded="true" entityUid="quadcopterf430*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.12667332570002773 0.16240423503553275 0.28453429268594199</Translation>
+</Transform>
+</Instance>
+<Instance name="430propeller-1" uid="430propeller-1" entityUid="430propeller*:*Default">
+<Transform>
+<Rotation>-0.92086770106107774 0 -0.38987520714003532 0 -1 0 -0.38987520714003532 0 0.92086770106107774</Rotation>
+<Translation>-0.033851399976938826 0.15540423503553275 0.44505901836290929</Translation>
+</Transform>
+</Instance>
+<Instance name="430propeller-4" uid="430propeller-4" entityUid="430propeller*:*Default">
+<Transform>
+<Rotation>-0.83716910433122238 0 -0.54694413860398872 0 -1 0 -0.54694413860398872 0 0.83716910433122238</Rotation>
+<Translation>0.28719805137699544 0.15540423503553275 0.44505901836290779</Translation>
+</Transform>
+</Instance>
+<Instance name="430propeller-5" uid="430propeller-5" entityUid="430propeller*:*Default">
+<Transform>
+<Rotation>-0.83716910433122238 0 -0.54694413860398872 0 -1 0 -0.54694413860398872 0 0.83716910433122238</Rotation>
+<Translation>0.28719805137699422 0.15540423503553275 0.12400956700897471</Translation>
+</Transform>
+</Instance>
+<Instance name="430propeller-6" uid="430propeller-6" entityUid="430propeller*:*Default">
+<Transform>
+<Rotation>-0.83716910433122238 0 -0.54694413860398872 0 -1 0 -0.54694413860398872 0 0.83716910433122238</Rotation>
+<Translation>-0.033851399976941178 0.15540423503553275 0.1240095670089771</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>quadcopterf430-1</Uid>
+</InstancePath>
+<Position>-0.16052472567696655 0 0.16052472567696724</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>430propeller-1</Uid>
+</InstancePath>
+<Position>0 -0.024999999999999994 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>quadcopterf430-1</Uid>
+</InstancePath>
+<Position>-0.16052472567696655 0.017999999999999988 0.16052472567696724</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>430propeller-1</Uid>
+</InstancePath>
+<Position>0 -0.024999999999999994 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>quadcopterf430-1</Uid>
+</InstancePath>
+<Position>0.16052472567696777 0 0.16052472567696596</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>430propeller-4</Uid>
+</InstancePath>
+<Position>0 -0.024999999999999994 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>quadcopterf430-1</Uid>
+</InstancePath>
+<Position>0.16052472567696777 0.017999999999999988 0.16052472567696596</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>430propeller-4</Uid>
+</InstancePath>
+<Position>0 -0.024999999999999994 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>quadcopterf430-1</Uid>
+</InstancePath>
+<Position>-0.16052472567696893 0 -0.16052472567696485</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>430propeller-6</Uid>
+</InstancePath>
+<Position>0 -0.024999999999999994 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>quadcopterf430-1</Uid>
+</InstancePath>
+<Position>-0.16052472567696893 0.017999999999999988 -0.16052472567696485</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>430propeller-6</Uid>
+</InstancePath>
+<Position>0 -0.024999999999999994 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>quadcopterf430-1</Uid>
+</InstancePath>
+<Position>0.16052472567696655 0 -0.16052472567696724</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>430propeller-5</Uid>
+</InstancePath>
+<Position>0 -0.024999999999999994 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>quadcopterf430-1</Uid>
+</InstancePath>
+<Position>0.16052472567696655 0.017999999999999988 -0.16052472567696724</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>430propeller-5</Uid>
+</InstancePath>
+<Position>0 -0.024999999999999994 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="430propeller" uid="430propeller*:*Default" version="144">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="430propeller.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.010661271027479227</Mass>
+<CenterOfMass>0 0.0017935619400183168 0</CenterOfMass>
+<Inertia>1.1401602282709309e-06 5.4718285911871442e-06 5.652937030376587e-06 0 2.9594620812087904e-08 0</Inertia>
+</MassProperties>
+<GeometryFile name="430propeller_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.49803921568627452" g="0.98039215686274506" b="1" a="1"/>
+<Diffuse r="0.49803921568627452" g="0.98039215686274506" b="1" a="1"/>
+<Specular r="0.24901960784313726" g="0.49019607843137253" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="quadcopterf430" uid="quadcopterf430*:*Default" version="281">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="quadcopterf430.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.12029452801194125</Mass>
+<CenterOfMass>1.4141883281732971e-08 0.026605482668863534 -3.0952312801775545e-08</CenterOfMass>
+<Inertia>0.0011143923123120188 0.0018774471065362904 0.0011636313733706285 -3.4270160477511551e-11 1.2916141857961595e-08 1.5657783882966656e-11</Inertia>
+</MassProperties>
+<GeometryFile name="quadcopterf430_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Diffuse r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Specular r="0.12549019607843137" g="0.12549019607843137" b="0.12549019607843137" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
